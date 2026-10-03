@@ -1,0 +1,25 @@
+zip,area,age_65plus,age_75plus,age_85plus,age_75_to_84,share_75plus,in_nursing_homes_65plus,share_in_nursing_homes,rank_65plus,rank_75plus,rank_85plus
+94501,"Alameda, main island",10926,4277,1908,2369,0.391,713,0.065,1,1,1
+94611,"Oakland, Montclair / Piedmont",8708,4040,991,3049,0.464,215,0.025,2,2,2
+94605,"Oakland, East Oakland hills",7019,2714,854,1860,0.387,64,0.009,3,3,4
+94601,"Oakland, Fruitvale",6660,2609,878,1731,0.392,360,0.054,4,4,3
+94610,"Oakland, Grand Lake",5725,2472,837,1635,0.432,192,0.034,6,5,5
+94606,"Oakland, San Antonio / Eastlake",5512,2318,759,1559,0.421,244,0.044,7,6,6
+94602,"Oakland, Glenview / Dimond",5939,2298,639,1659,0.387,146,0.025,5,7,8
+94619,"Oakland, Laurel / Redwood Heights",4408,1812,281,1531,0.411,140,0.032,8,8,19
+94618,"Oakland, Rockridge",3849,1721,321,1400,0.447,13,0.003,10,9,16
+94707,"Berkeley, north hills",3874,1716,450,1266,0.443,2,0.001,9,10,11
+94607,"Oakland, West Oakland / Chinatown",3849,1648,500,1148,0.428,93,0.024,10,11,9
+94612,"Oakland, downtown",3338,1626,716,910,0.487,181,0.054,15,12,7
+94708,Berkeley hills,3327,1473,228,1245,0.443,0,0.0,16,13,22
+94705,"Berkeley, Claremont / Elmwood",3723,1449,390,1059,0.389,144,0.039,12,14,13
+94608,Emeryville / North Oakland,3609,1431,470,961,0.397,66,0.018,13,15,10
+94703,"Berkeley, central / south",3187,1415,283,1132,0.444,84,0.026,18,16,18
+94702,"Berkeley, west",3198,1345,412,933,0.421,68,0.021,17,17,12
+94603,"Oakland, Elmhurst",3420,1209,291,918,0.354,69,0.02,14,18,17
+94621,"Oakland, Coliseum area",2979,1160,274,886,0.389,133,0.045,19,19,20
+94502,"Alameda, Bay Farm Island",2898,1105,323,782,0.381,1,0.0,20,20,15
+94609,"Oakland, Temescal",2578,850,342,508,0.33,197,0.076,21,21,14
+94709,"Berkeley, north",1808,768,232,536,0.425,68,0.038,22,22,21
+94710,"Berkeley, waterfront",1481,508,161,347,0.343,42,0.028,23,23,24
+94704,"Berkeley, downtown / campus",1273,502,175,327,0.394,63,0.049,24,24,23

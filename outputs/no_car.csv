@@ -1,0 +1,25 @@
+zip,area,no_car_households,older_households,share_no_car,typical_household_income,can_likely_pay,fit
+94612,"Oakland, downtown",1834,2632,0.697,19241,False,"No car, tight budgets"
+94606,"Oakland, San Antonio / Eastlake",1264,3089,0.409,33565,False,"No car, tight budgets"
+94607,"Oakland, West Oakland / Chinatown",1209,2591,0.467,24362,False,"No car, tight budgets"
+94501,"Alameda, main island",1036,6150,0.168,69740,True,"No car, can likely pay"
+94611,"Oakland, Montclair / Piedmont",983,5760,0.171,110769,True,"No car, can likely pay"
+94601,"Oakland, Fruitvale",752,3626,0.207,41107,False,"No car, tight budgets"
+94702,"Berkeley, west",748,2390,0.313,49167,False,"No car, tight budgets"
+94610,"Oakland, Grand Lake",686,3608,0.19,102315,True,"No car, can likely pay"
+94608,Emeryville / North Oakland,662,2412,0.274,48580,False,"No car, tight budgets"
+94621,"Oakland, Coliseum area",624,1974,0.316,35195,False,"No car, tight budgets"
+94602,"Oakland, Glenview / Dimond",601,3602,0.167,88351,True,"No car, can likely pay"
+94605,"Oakland, East Oakland hills",395,4153,0.095,84621,True,"No car, can likely pay"
+94603,"Oakland, Elmhurst",372,2004,0.186,53648,False,"No car, tight budgets"
+94619,"Oakland, Laurel / Redwood Heights",356,2830,0.126,75556,True,"No car, can likely pay"
+94618,"Oakland, Rockridge",353,2559,0.138,120179,True,"No car, can likely pay"
+94703,"Berkeley, central / south",351,1982,0.177,76974,True,"No car, can likely pay"
+94609,"Oakland, Temescal",345,1773,0.195,64763,True,"No car, can likely pay"
+94704,"Berkeley, downtown / campus",338,852,0.397,90583,True,"No car, can likely pay"
+94705,"Berkeley, Claremont / Elmwood",163,2278,0.072,129250,True,Few without a car
+94709,"Berkeley, north",156,1288,0.121,98472,True,Few without a car
+94707,"Berkeley, north hills",122,2267,0.054,153185,True,Few without a car
+94710,"Berkeley, waterfront",103,968,0.106,86250,True,Few without a car
+94708,Berkeley hills,52,2105,0.025,167292,True,Few without a car
+94502,"Alameda, Bay Farm Island",12,1683,0.007,136054,True,Few without a car

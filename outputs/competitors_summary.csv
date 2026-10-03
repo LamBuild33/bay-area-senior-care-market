@@ -1,0 +1,10 @@
+,what,agencies,share,my_edge
+hands_on_care,Hands-on personal care,14,0.933,False
+errands,Errands and shopping,10,0.667,False
+rides_for_clients,Rides for clients (I do not offer this),10,0.667,False
+medication_reminders,Medication reminders,10,0.667,False
+no_minimum,No minimum visit length,2,0.133,False
+spanish_speaking,Spanish-speaking caregivers,1,0.067,True
+tech_help,Help with technology,0,0.0,True
+paperwork_help,"Help with paperwork, mail or bills",0,0.0,True
+publishes_hourly_price,Hourly price shown on the website,0,0.0,True

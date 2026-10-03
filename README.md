@@ -1,0 +1,126 @@
+# Bay Area Senior Care Market Analysis
+
+A data project that uses public Census data and a small competitor review to decide where a one-person home support business in the East Bay should focus, and what it should offer.
+
+The business blends hands-on, nonmedical home care with assistant-type help (errands, paperwork, technology) for older adults in Berkeley, Oakland and Alameda. Each notebook answers one business question in plain language, shows its assumptions, and ends with the decision it led to.
+
+## The answer in one paragraph
+
+Six measures from the question notebooks reduce to two: **need** (care need, living alone, no car and offline all rank areas alike) and **ability to pay**. The two are nearly unrelated across areas (link score 0.18), so the places with the most need are mostly not the places with the most money. Four areas place in the top third on both: **Alameda's main island, Glenview / Dimond, Montclair / Piedmont and Grand Lake**. Alameda's main island comes first under every set of weights tested.
+
+![Scorecard: each area's place for ability to pay, need and Spanish speakers](outputs/scorecard.png)
+
+## What I decided
+
+- **Where to start:** the four best-fit areas above, then the East Oakland hills, a near miss that also ranks 4th for older Spanish speakers.
+- **Rate and visit length:** keep 35 dollars an hour and the 4-hour minimum. Changing the rate by 5 dollars moves the households I can reach by only about 4 percentage points.
+- **Schedule:** add a visit every other week alongside the weekly visit. It reaches about 73% of older households instead of 56%.
+- **What to lead with:** one reliable person for hands-on care plus help with technology and paperwork, bilingual in English and Spanish. None of the 15 agency pages I read advertise tech or paperwork help, and one mentions Spanish.
+- **Driving:** keep the rule that I do not drive clients. In the areas that can pay, about 86% of older households have a car, and I can come along by rideshare, transit or paratransit.
+- **Areas with high need but tight budgets:** not part of the launch. Income is only part of the picture, so I want to look at assets and savings before deciding about them.
+
+![What 15 local agencies advertise](outputs/competitors.png)
+
+## Results by notebook
+
+**Notebook 01: where are the clients?**
+- The five ZIP codes with the largest estimated pool of 65+ households that can likely pay and may need help: 94501 (Alameda), then 94610, 94602, 94605 and 94611 (Oakland).
+- The top five do not change when the income floor is set to 50,000, 75,000 or 100,000 dollars a year.
+
+**Notebook 02: hands-on care or assistant-type help?**
+- The two needs partly overlap across the 24 areas (overlap score 0.56 on a scale of -1 to 1).
+- The same five ZIP codes rank high for both, so a blended message fits there.
+- Care-leaning areas: 94601 (Fruitvale), 94703 (central and south Berkeley), 94606 (San Antonio / Eastlake).
+- Assistant-leaning areas: 94618 (Rockridge), 94707 and 94708 (Berkeley hills).
+
+**Notebook 03: where do the oldest residents live?**
+- Ranking areas by people 75+ gives almost the same order as ranking by people 65+ (overlap score 0.98), so age adds little to the picture.
+- People 85+ are more concentrated: Alameda's main island has 1,908, nearly twice the next area. About 713 older adults there live in nursing homes, which explains part of that.
+- Downtown Oakland ranks 15th for people 65+ but 7th for people 85+.
+
+**Notebook 04: who lives alone, and can they pay?**
+- About 29,000 people 65+ live alone in these areas (29% of older adults living at home). About 64% are women.
+- A person living alone typically has about 59% of the income of the typical older household, so "can pay" judged by household income overstates what they can afford.
+- A weekly visit costs 7,280 dollars a year. By my income lines, it is comfortable in 10 areas (31% of people living alone), a stretch in 6 (34%) and out of reach on income alone in 8 (35%).
+- Alameda's main island has the most people living alone (2,860), but their typical income is about 38,000 dollars, which makes a weekly visit a stretch.
+
+**Notebook 05: how many hours can a typical client afford?**
+- Assuming a household can spend up to 12% of its income on help, at 35 dollars an hour: about 56% of older households can afford one 4-hour visit a week, 73% can afford one every other week, and 33% can afford two a week.
+- Each 5 dollars added to the hourly rate removes about 4 percentage points of households (61% at 30 dollars, 48% at 45 dollars).
+- A 4-hour visit every other week reaches the same households as a 2-hour weekly minimum would, without shortening the visit.
+- The typical older household can afford the 4-hour weekly visit in 16 of 24 areas; the typical person living alone can in 9.
+
+**Notebook 06: where would speaking Spanish be an advantage?**
+- About 9,000 people 65+ speak Spanish at home (9% of older adults), and 47% of them speak English less than very well.
+- They are concentrated: Fruitvale, Elmhurst and the Coliseum area hold 42% of them. Fruitvale alone has 2,115, about a third of its older adults.
+- Those three areas have low typical incomes. The areas with 300 or more older Spanish speakers and incomes that fit a weekly visit are the East Oakland hills, Alameda's main island, Glenview / Dimond, Grand Lake and Laurel / Redwood Heights.
+- For comparison, about 17,700 people 65+ speak an Asian or Pacific Island language at home, and 78% of them speak limited English.
+
+**Notebook 07: where do older adults lack a car?**
+- About 13,500 older households have no car, 21% of older households.
+- Going without a car tracks income closely (link score -0.82): 55% of car-free older households are in areas where the typical income is below the line for a weekly visit. Downtown Oakland stands out, with 70% of older households car-free.
+- In the 16 areas where a weekly visit fits the typical income, 14% of older households have no car, about 1 in 7. The largest groups are on Alameda's main island (1,036) and in Montclair / Piedmont (983), Grand Lake (686) and Glenview / Dimond (601).
+
+**Notebook 08: where is the tech gap largest?**
+- About 12,300 people 65+ are offline at home (no device, or a device with no internet): 12% of older adults. The other 88% have a device and broadband.
+- Being offline tracks income closely (link score -0.83): 52% of offline older adults are in areas where the typical income is below the line for a weekly visit.
+- In the 16 areas where a weekly visit fits the typical income, 9% are offline and 91% are connected. There, tech help mostly means helping people use devices they already own, which the Census does not measure.
+
+**Notebook 09: the scorecard**
+- Best fit (high need and can pay): Alameda's main island, Glenview / Dimond, Montclair / Piedmont, Grand Lake.
+- Can pay, less need: East Oakland hills (a near miss for "best fit", and 4th for Spanish speakers), Rockridge, Berkeley north hills, Claremont / Elmwood.
+- Need, tight budgets: Fruitvale (1st for Spanish speakers), San Antonio / Eastlake, West Oakland / Chinatown, downtown Oakland.
+- Weights test: only Alameda's main island and Glenview / Dimond stay in the top five under all four sets of weights. The order below first place depends on how much ability to pay counts against need.
+
+**Notebook 10: who would a family hire instead of me?**
+- This one is not Census data. I read one public web page for each of 15 home care agencies serving Alameda or Oakland, and two Care.com listing pages, on October 3, 2026.
+- Of the 15 agencies, 14 advertise hands-on care, 10 errands, 10 rides for clients and 10 medication reminders.
+- None advertise help with technology or with paperwork, mail and bills. One mentions Spanish-speaking caregivers. None show an hourly price, and two say they have no minimum visit.
+- Among the first 20 Care.com helper profiles in each of two listings, none mention tech help or Spanish, and 3 to 4 mention paperwork or admin help. Their posted rates average 28 to 33 dollars an hour.
+
+Every number here is an estimate for ranking areas, not a count of clients; see Limits.
+
+## What's here
+
+| Path | What it is |
+| --- | --- |
+| `notebooks/00_get_data.ipynb` | Downloads every Census measure the project uses and saves one table by ZIP code |
+| `data/census_by_zip.csv` | That table: 24 ZIP code areas, 43 measures. `data_dictionary.csv` explains each column |
+| `notebooks/01_where_are_the_clients.ipynb` | Which ZIP codes have the most likely clients, and whether that holds at different income floors |
+| `notebooks/02_care_vs_assistant.ipynb` | Whether hands-on care need and assistant-type demand sit in the same areas |
+| `notebooks/03_oldest_residents.ipynb` | Where people 75+ and 85+ live, and whether age changes the ranking |
+| `notebooks/04_living_alone.ipynb` | Where older adults live alone, and whether a typical income there covers a weekly visit |
+| `notebooks/05_affordable_hours.ipynb` | How many older households can afford each rate, visit length and schedule |
+| `notebooks/06_spanish_speakers.ipynb` | Where older Spanish speakers live, how many speak limited English, and whether incomes there fit my rate |
+| `notebooks/07_no_car.ipynb` | Where older households have no car, and what that means for errands and my no-driving rule |
+| `notebooks/08_tech_gap.ipynb` | Where older adults have no computer or internet at home, and what kind of tech help fits where |
+| `notebooks/09_scorecard.ipynb` | All the measures side by side, a verdict for each area, and a test of the weights |
+| `notebooks/10_competitors.ipynb` | What 15 local agencies and Care.com helpers advertise, and what I offer that they do not |
+| `data/competitors.csv`, `data/care_com_listings.csv` | Hand-recorded notes from competitor web pages, with the address of each page |
+| `outputs/` | The charts and ranked tables the notebooks save |
+| `requirements.txt` | Python packages needed |
+
+## How to run (Windows, Anaconda)
+
+1. Get a free Census API key (required): https://api.census.gov/data/key_signup.html. It arrives by email; click the activation link in that email.
+2. In this project folder, create a text file named `census_key.txt` and paste the key into it. The file is listed in `.gitignore`, so it never goes to GitHub.
+3. Open **Anaconda Prompt**, go to this folder, and install the packages: `pip install -r requirements.txt`
+4. Start Jupyter with `jupyter notebook` and run `notebooks/00_get_data.ipynb` first. It builds the shared table in `data/`.
+5. Run the other notebooks in order. Notebooks 03 to 09 read the shared table and need no key. Notebooks 01 and 02 download their own data, and notebook 10 reads the competitor files in `data/`.
+
+## Data
+
+U.S. Census Bureau, American Community Survey 5-year estimates (2020-2024), by ZIP code tabulation area. Tables used: B01001 (age), B09020 (living arrangements, 65+), B16004 (language and English ability), B18106 (self-care difficulty), B18107 (independent living difficulty), B19037 and B19049 (household income by age of householder), B19215 (income of people living alone), B25007 (owning or renting), B25045 (vehicles), B28005 (computer and internet). `data/variable_labels.csv` lists every Census variable behind each column. Public and free.
+
+## Limits
+
+- ZIP areas do not match city borders exactly.
+- Survey estimates are less reliable for small ZIP codes, so treat close rankings as ties.
+- The income lines that count as "can afford help" are assumptions, set at the top of each notebook.
+- The Census publishes each measure separately. It does not say how many people are, for example, both living alone and able to pay.
+- The competitor review covers 15 agencies and one web page each. It records what they advertise, which may differ from what they offer.
+- This shows where people live, not who wants to hire. Local conversations still decide that.
+
+## Privacy
+
+This repo uses public data only. Do not add client names, intake forms, logs, or API keys.

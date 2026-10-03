@@ -1,0 +1,44 @@
+column,meaning,census_variables_used
+residents_65plus,People age 65 or older,12
+residents_75plus,People age 75 or older,6
+residents_85plus,People age 85 or older,2
+live_alone_65plus,People 65+ who live alone,2
+live_alone_men_65plus,Men 65+ who live alone,1
+live_alone_women_65plus,Women 65+ who live alone,1
+group_quarters_65plus,"People 65+ living in group quarters, mostly nursing homes (not in a household)",1
+selfcare_65plus,People 65+ with difficulty bathing or dressing,4
+indep_living_difficulty_65plus,"People 65+ with difficulty doing errands alone, such as shopping or a doctor visit",4
+hh65_total,Households headed by someone 65+,1
+median_income_65plus_hh,Median yearly income of households headed by someone 65+ (dollars),1
+median_income_men_alone_65plus,Median yearly income of men 65+ living alone (dollars),1
+median_income_women_alone_65plus,Median yearly income of women 65+ living alone (dollars),1
+owner_hh65,Households headed by someone 65+ that own their home,3
+renter_hh65,Households headed by someone 65+ that rent,3
+lang65_total,People 65+ counted in the language table,1
+english_only_65plus,People 65+ who speak only English at home,1
+spanish_65plus,People 65+ who speak Spanish at home,1
+spanish_limited_english_65plus,People 65+ who speak Spanish at home and speak English less than very well,3
+asian_pacific_65plus,People 65+ who speak an Asian or Pacific Island language at home,1
+asian_pacific_limited_english_65plus,People 65+ who speak an Asian or Pacific Island language at home and speak English less than very well,3
+hh65_no_vehicle,Households headed by someone 65+ with no car,2
+hh65_with_vehicle,Households headed by someone 65+ with at least one car,2
+tech65_total,People 65+ counted in the computer and internet table,1
+no_computer_65plus,People 65+ in a home with no computer,1
+computer_no_internet_65plus,People 65+ in a home with a computer but no internet subscription,1
+broadband_65plus,People 65+ in a home with a computer and broadband internet,1
+hh65_income_from_0k,"Households headed by someone 65+ with yearly income: Less than $10,000",1
+hh65_income_from_10k,"Households headed by someone 65+ with yearly income: $10,000 to $14,999",1
+hh65_income_from_15k,"Households headed by someone 65+ with yearly income: $15,000 to $19,999",1
+hh65_income_from_20k,"Households headed by someone 65+ with yearly income: $20,000 to $24,999",1
+hh65_income_from_25k,"Households headed by someone 65+ with yearly income: $25,000 to $29,999",1
+hh65_income_from_30k,"Households headed by someone 65+ with yearly income: $30,000 to $34,999",1
+hh65_income_from_35k,"Households headed by someone 65+ with yearly income: $35,000 to $39,999",1
+hh65_income_from_40k,"Households headed by someone 65+ with yearly income: $40,000 to $44,999",1
+hh65_income_from_45k,"Households headed by someone 65+ with yearly income: $45,000 to $49,999",1
+hh65_income_from_50k,"Households headed by someone 65+ with yearly income: $50,000 to $59,999",1
+hh65_income_from_60k,"Households headed by someone 65+ with yearly income: $60,000 to $74,999",1
+hh65_income_from_75k,"Households headed by someone 65+ with yearly income: $75,000 to $99,999",1
+hh65_income_from_100k,"Households headed by someone 65+ with yearly income: $100,000 to $124,999",1
+hh65_income_from_125k,"Households headed by someone 65+ with yearly income: $125,000 to $149,999",1
+hh65_income_from_150k,"Households headed by someone 65+ with yearly income: $150,000 to $199,999",1
+hh65_income_from_200k,"Households headed by someone 65+ with yearly income: $200,000 or more",1

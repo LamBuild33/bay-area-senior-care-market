@@ -1,0 +1,78 @@
+column,census_code,census_label
+residents_65plus,B01001_020E,Estimate!!Total:!!Male:!!65 and 66 years
+residents_65plus,B01001_021E,Estimate!!Total:!!Male:!!67 to 69 years
+residents_65plus,B01001_022E,Estimate!!Total:!!Male:!!70 to 74 years
+residents_65plus,B01001_023E,Estimate!!Total:!!Male:!!75 to 79 years
+residents_65plus,B01001_024E,Estimate!!Total:!!Male:!!80 to 84 years
+residents_65plus,B01001_025E,Estimate!!Total:!!Male:!!85 years and over
+residents_65plus,B01001_044E,Estimate!!Total:!!Female:!!65 and 66 years
+residents_65plus,B01001_045E,Estimate!!Total:!!Female:!!67 to 69 years
+residents_65plus,B01001_046E,Estimate!!Total:!!Female:!!70 to 74 years
+residents_65plus,B01001_047E,Estimate!!Total:!!Female:!!75 to 79 years
+residents_65plus,B01001_048E,Estimate!!Total:!!Female:!!80 to 84 years
+residents_65plus,B01001_049E,Estimate!!Total:!!Female:!!85 years and over
+residents_75plus,B01001_023E,Estimate!!Total:!!Male:!!75 to 79 years
+residents_75plus,B01001_024E,Estimate!!Total:!!Male:!!80 to 84 years
+residents_75plus,B01001_025E,Estimate!!Total:!!Male:!!85 years and over
+residents_75plus,B01001_047E,Estimate!!Total:!!Female:!!75 to 79 years
+residents_75plus,B01001_048E,Estimate!!Total:!!Female:!!80 to 84 years
+residents_75plus,B01001_049E,Estimate!!Total:!!Female:!!85 years and over
+residents_85plus,B01001_025E,Estimate!!Total:!!Male:!!85 years and over
+residents_85plus,B01001_049E,Estimate!!Total:!!Female:!!85 years and over
+live_alone_65plus,B09020_015E,Estimate!!Total:!!In households:!!In nonfamily households:!!Householder:!!Male:!!Living alone
+live_alone_65plus,B09020_018E,Estimate!!Total:!!In households:!!In nonfamily households:!!Householder:!!Female:!!Living alone
+live_alone_men_65plus,B09020_015E,Estimate!!Total:!!In households:!!In nonfamily households:!!Householder:!!Male:!!Living alone
+live_alone_women_65plus,B09020_018E,Estimate!!Total:!!In households:!!In nonfamily households:!!Householder:!!Female:!!Living alone
+group_quarters_65plus,B09020_021E,Estimate!!Total:!!In group quarters
+selfcare_65plus,B18106_013E,Estimate!!Total:!!Male:!!65 to 74 years:!!With a self-care difficulty
+selfcare_65plus,B18106_016E,Estimate!!Total:!!Male:!!75 years and over:!!With a self-care difficulty
+selfcare_65plus,B18106_029E,Estimate!!Total:!!Female:!!65 to 74 years:!!With a self-care difficulty
+selfcare_65plus,B18106_032E,Estimate!!Total:!!Female:!!75 years and over:!!With a self-care difficulty
+indep_living_difficulty_65plus,B18107_010E,Estimate!!Total:!!Male:!!65 to 74 years:!!With an independent living difficulty
+indep_living_difficulty_65plus,B18107_013E,Estimate!!Total:!!Male:!!75 years and over:!!With an independent living difficulty
+indep_living_difficulty_65plus,B18107_023E,Estimate!!Total:!!Female:!!65 to 74 years:!!With an independent living difficulty
+indep_living_difficulty_65plus,B18107_026E,Estimate!!Total:!!Female:!!75 years and over:!!With an independent living difficulty
+hh65_total,B19037_053E,Estimate!!Total:!!Householder 65 years and over:
+median_income_65plus_hh,B19049_005E,Estimate!!Median household income in the past 12 months (in 2024 inflation-adjusted dollars) --!!Total:!!Householder 65 years and over
+median_income_men_alone_65plus,B19215_005E,Estimate!!Median nonfamily household income in the past 12 months (in 2024 inflation-adjusted dollars) --!!Total (dollars):!!Male householder --!!Total (dollars)!!Living alone --!!Total (dollars)!!Householder 65 years and over (dollars)
+median_income_women_alone_65plus,B19215_012E,Estimate!!Median nonfamily household income in the past 12 months (in 2024 inflation-adjusted dollars) --!!Total (dollars):!!Female householder --!!Total (dollars)!!Living alone --!!Total (dollars)!!Householder 65 years and over (dollars)
+owner_hh65,B25007_009E,Estimate!!Total:!!Owner occupied:!!Householder 65 to 74 years
+owner_hh65,B25007_010E,Estimate!!Total:!!Owner occupied:!!Householder 75 to 84 years
+owner_hh65,B25007_011E,Estimate!!Total:!!Owner occupied:!!Householder 85 years and over
+renter_hh65,B25007_019E,Estimate!!Total:!!Renter occupied:!!Householder 65 to 74 years
+renter_hh65,B25007_020E,Estimate!!Total:!!Renter occupied:!!Householder 75 to 84 years
+renter_hh65,B25007_021E,Estimate!!Total:!!Renter occupied:!!Householder 85 years and over
+lang65_total,B16004_046E,Estimate!!Total:!!65 years and over:
+english_only_65plus,B16004_047E,Estimate!!Total:!!65 years and over:!!Speak only English
+spanish_65plus,B16004_048E,Estimate!!Total:!!65 years and over:!!Speak Spanish:
+spanish_limited_english_65plus,B16004_050E,"Estimate!!Total:!!65 years and over:!!Speak Spanish:!!Speak English ""well"""
+spanish_limited_english_65plus,B16004_051E,"Estimate!!Total:!!65 years and over:!!Speak Spanish:!!Speak English ""not well"""
+spanish_limited_english_65plus,B16004_052E,"Estimate!!Total:!!65 years and over:!!Speak Spanish:!!Speak English ""not at all"""
+asian_pacific_65plus,B16004_058E,Estimate!!Total:!!65 years and over:!!Speak Asian and Pacific Island languages:
+asian_pacific_limited_english_65plus,B16004_060E,"Estimate!!Total:!!65 years and over:!!Speak Asian and Pacific Island languages:!!Speak English ""well"""
+asian_pacific_limited_english_65plus,B16004_061E,"Estimate!!Total:!!65 years and over:!!Speak Asian and Pacific Island languages:!!Speak English ""not well"""
+asian_pacific_limited_english_65plus,B16004_062E,"Estimate!!Total:!!65 years and over:!!Speak Asian and Pacific Island languages:!!Speak English ""not at all"""
+hh65_no_vehicle,B25045_006E,Estimate!!Total:!!Owner occupied:!!No vehicle available:!!Householder 65 years and over
+hh65_no_vehicle,B25045_015E,Estimate!!Total:!!Renter occupied:!!No vehicle available:!!Householder 65 years and over
+hh65_with_vehicle,B25045_010E,Estimate!!Total:!!Owner occupied:!!1 or more vehicles available:!!Householder 65 years and over
+hh65_with_vehicle,B25045_019E,Estimate!!Total:!!Renter occupied:!!1 or more vehicles available:!!Householder 65 years and over
+tech65_total,B28005_014E,Estimate!!Total:!!65 years and over:
+no_computer_65plus,B28005_019E,Estimate!!Total:!!65 years and over:!!No computer
+computer_no_internet_65plus,B28005_018E,Estimate!!Total:!!65 years and over:!!Has a computer:!!Without an Internet subscription
+broadband_65plus,B28005_017E,Estimate!!Total:!!65 years and over:!!Has a computer:!!With a broadband Internet subscription
+hh65_income_from_0k,B19037_054E,"Estimate!!Total:!!Householder 65 years and over:!!Less than $10,000"
+hh65_income_from_10k,B19037_055E,"Estimate!!Total:!!Householder 65 years and over:!!$10,000 to $14,999"
+hh65_income_from_15k,B19037_056E,"Estimate!!Total:!!Householder 65 years and over:!!$15,000 to $19,999"
+hh65_income_from_20k,B19037_057E,"Estimate!!Total:!!Householder 65 years and over:!!$20,000 to $24,999"
+hh65_income_from_25k,B19037_058E,"Estimate!!Total:!!Householder 65 years and over:!!$25,000 to $29,999"
+hh65_income_from_30k,B19037_059E,"Estimate!!Total:!!Householder 65 years and over:!!$30,000 to $34,999"
+hh65_income_from_35k,B19037_060E,"Estimate!!Total:!!Householder 65 years and over:!!$35,000 to $39,999"
+hh65_income_from_40k,B19037_061E,"Estimate!!Total:!!Householder 65 years and over:!!$40,000 to $44,999"
+hh65_income_from_45k,B19037_062E,"Estimate!!Total:!!Householder 65 years and over:!!$45,000 to $49,999"
+hh65_income_from_50k,B19037_063E,"Estimate!!Total:!!Householder 65 years and over:!!$50,000 to $59,999"
+hh65_income_from_60k,B19037_064E,"Estimate!!Total:!!Householder 65 years and over:!!$60,000 to $74,999"
+hh65_income_from_75k,B19037_065E,"Estimate!!Total:!!Householder 65 years and over:!!$75,000 to $99,999"
+hh65_income_from_100k,B19037_066E,"Estimate!!Total:!!Householder 65 years and over:!!$100,000 to $124,999"
+hh65_income_from_125k,B19037_067E,"Estimate!!Total:!!Householder 65 years and over:!!$125,000 to $149,999"
+hh65_income_from_150k,B19037_068E,"Estimate!!Total:!!Householder 65 years and over:!!$150,000 to $199,999"
+hh65_income_from_200k,B19037_069E,"Estimate!!Total:!!Householder 65 years and over:!!$200,000 or more"

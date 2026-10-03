@@ -1,0 +1,4 @@
+schedule,cost_per_year,income_needed,households_that_can_afford,share_of_older_households
+A 4-hour visit every other week,3640,30300.0,47030,0.728
+A 4-hour visit every week,7280,60700.0,36215,0.561
+Two 4-hour visits a week,14560,121300.0,21518,0.333

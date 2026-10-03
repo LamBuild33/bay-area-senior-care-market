@@ -1,0 +1,25 @@
+zip,area,older_adults,no_computer,computer_no_internet,offline,share_offline,connected,typical_household_income,can_likely_pay
+94501,"Alameda, main island",10213,799,380,1179,0.115,8997,69740,True
+94607,"Oakland, West Oakland / Chinatown",3756,681,442,1123,0.299,2624,24362,False
+94601,"Oakland, Fruitvale",6300,728,372,1100,0.175,5200,41107,False
+94606,"Oakland, San Antonio / Eastlake",5268,645,443,1088,0.207,4157,33565,False
+94605,"Oakland, East Oakland hills",6955,368,489,857,0.123,6066,84621,True
+94603,"Oakland, Elmhurst",3351,408,416,824,0.246,2527,53648,False
+94602,"Oakland, Glenview / Dimond",5793,491,212,703,0.121,5090,88351,True
+94621,"Oakland, Coliseum area",2846,316,363,679,0.239,2155,35195,False
+94612,"Oakland, downtown",3157,326,326,652,0.207,2505,19241,False
+94610,"Oakland, Grand Lake",5533,254,359,613,0.111,4912,102315,True
+94702,"Berkeley, west",3130,374,153,527,0.168,2603,49167,False
+94611,"Oakland, Montclair / Piedmont",8493,251,267,518,0.061,7975,110769,True
+94619,"Oakland, Laurel / Redwood Heights",4268,203,204,407,0.095,3844,75556,True
+94608,Emeryville / North Oakland,3543,306,97,403,0.114,3140,48580,False
+94609,"Oakland, Temescal",2381,192,83,275,0.115,2106,64763,True
+94709,"Berkeley, north",1740,98,140,238,0.137,1492,98472,True
+94618,"Oakland, Rockridge",3836,125,110,235,0.061,3601,120179,True
+94707,"Berkeley, north hills",3872,156,65,221,0.057,3651,153185,True
+94705,"Berkeley, Claremont / Elmwood",3579,67,82,149,0.042,3430,129250,True
+94703,"Berkeley, central / south",3103,57,87,144,0.046,2959,76974,True
+94502,"Alameda, Bay Farm Island",2897,43,66,109,0.038,2788,136054,True
+94710,"Berkeley, waterfront",1439,82,21,103,0.072,1336,86250,True
+94708,Berkeley hills,3327,9,67,76,0.023,3251,167292,True
+94704,"Berkeley, downtown / campus",1210,20,50,70,0.058,1140,90583,True

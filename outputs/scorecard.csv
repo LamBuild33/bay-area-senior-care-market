@@ -1,0 +1,25 @@
+zip,area,verdict,can_pay_place,need_place,spanish_place,lead_with,living_alone_weekly_visit,care_need_place,alone_place,no_car_place,offline_place,place_my_weights,place_all_equal,place_pay_first,place_need_first,can_pay,care_need,alone,no_car,offline,spanish
+94501,"Alameda, main island",Best fit,2,1,5,Blend,A stretch,1,1,4,1,1,1,1,1,3413,803,2860,1036,1179,486
+94602,"Oakland, Glenview / Dimond",Best fit,5,6,7,Blend,Comfortable,4,6,11,7,2,4,4,3,2322,565,1459,601,703,432
+94611,"Oakland, Montclair / Piedmont",Best fit,1,7,14,Blend,A stretch,14,2,5,12,3,6,2,5,3886,290,2810,983,518,192
+94605,"Oakland, East Oakland hills","Can pay, less need",3,10,4,Blend,Out of reach,13,8,12,5,4,5,3,7,2690,313,1353,395,857,765
+94601,"Oakland, Fruitvale","Need, tight budgets",11,5,1,Care,Out of reach,2,12,6,3,5,2,6,4,1435,800,1154,752,1100,2115
+94610,"Oakland, Grand Lake",Best fit,4,8,9,Blend,Comfortable,15,3,8,10,6,7,5,8,2438,274,1855,686,613,317
+94606,"Oakland, San Antonio / Eastlake","Need, tight budgets",16,2,6,Care,Out of reach,3,5,2,4,7,3,9,2,935,772,1564,1264,1088,481
+94607,"Oakland, West Oakland / Chinatown","Need, tight budgets",20,3,13,Either,Out of reach,5,7,3,2,8,8,15,6,763,556,1355,1209,1123,198
+94608,Emeryville / North Oakland,Lower priority,14,11,8,Either,A stretch,10,9,9,14,9,9,11,10,1056,361,1266,662,403,405
+94619,"Oakland, Laurel / Redwood Heights",Lower priority,10,14,10,Either,A stretch,12,13,14,13,10,14,8,13,1686,318,1062,356,407,312
+94618,"Oakland, Rockridge","Can pay, less need",6,16,18,Assistant help,Comfortable,16,10,15,17,11,16,7,16,1896,210,1255,353,235,151
+94603,"Oakland, Elmhurst",Lower priority,18,12,2,Either,Out of reach,9,16,13,6,12,9,16,12,878,395,839,372,824,893
+94702,"Berkeley, west",Lower priority,17,9,17,Either,Out of reach,8,11,7,11,13,13,17,11,899,402,1219,748,527,170
+94703,"Berkeley, central / south",Lower priority,13,15,11,Care,A stretch,7,14,16,20,14,15,13,14,1160,440,931,351,144,231
+94612,"Oakland, downtown","Need, tight budgets",24,4,22,Either,Out of reach,6,4,1,9,15,11,21,9,519,539,1796,1834,652,63
+94621,"Oakland, Coliseum area",Lower priority,22,12,3,Either,Out of reach,11,15,10,8,16,12,20,15,526,360,914,624,679,778
+94707,"Berkeley, north hills","Can pay, less need",7,18,19,Assistant help,Comfortable,19,17,21,18,17,18,10,17,1860,122,832,122,221,136
+94705,"Berkeley, Claremont / Elmwood","Can pay, less need",8,19,21,Either,Comfortable,20,18,19,19,18,19,12,19,1819,115,824,163,149,90
+94708,Berkeley hills,Lower priority,9,21,16,Assistant help,Comfortable,18,20,23,23,19,20,14,20,1778,134,650,52,76,189
+94609,"Oakland, Temescal",Lower priority,15,17,15,Either,A stretch,17,19,17,15,20,17,18,17,1051,145,795,345,275,190
+94502,"Alameda, Bay Farm Island",Lower priority,12,23,20,Either,Comfortable,22,22,24,21,21,21,19,21,1310,99,551,12,109,103
+94709,"Berkeley, north",Lower priority,19,20,23,Either,Comfortable,23,21,20,16,22,22,22,22,797,86,648,156,238,62
+94710,"Berkeley, waterfront",Lower priority,21,24,12,Either,Comfortable,24,23,22,22,23,23,23,23,579,45,505,103,103,214
+94704,"Berkeley, downtown / campus",Lower priority,23,22,24,Either,Comfortable,21,24,18,24,24,24,24,24,521,105,498,338,70,1

@@ -1,0 +1,16 @@
+# secrets and local files
+.env
+census_key.txt
+*.key
+
+# Jupyter and Python
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Anaconda helper files
+anaconda_projects/
