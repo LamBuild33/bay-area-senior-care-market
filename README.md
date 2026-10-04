@@ -121,6 +121,7 @@ Every number here is an estimate for ranking areas, not a count of clients; see 
 | `data/competitors.csv`, `data/care_com_listings.csv` | Hand-recorded notes from competitor web pages, with the address of each page |
 | `data/family_postings.csv`, `data/family_postings_sources.csv` | One row per family job post (no names), and how many posts each listing had and how many were read |
 | `data/aide_postings.csv`, `data/aide_postings_sources.csv` | One row per helper profile (no names or profile links), and how many profiles each listing had and how many were read |
+| `data/community_postings.csv`, `data/community_postings_sources.csv` | One row per question families posted on a local advice forum (Berkeley Parents Network), with no names, and how many were read. No notebook uses these yet |
 | `outputs/` | The charts and ranked tables the notebooks save |
 | `requirements.txt` | Python packages needed |
 
