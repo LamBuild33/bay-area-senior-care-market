@@ -1,0 +1,12 @@
+,what,families_ask,aides_offer,families_share,aides_share
+personal_care,"Bathing, dressing or toileting",21,111,0.677,0.867
+meals,Meals,19,112,0.613,0.875
+housekeeping,Light housekeeping or laundry,19,119,0.613,0.93
+mobility_help,Help moving around,19,66,0.613,0.516
+companionship,Companionship,17,68,0.548,0.531
+errands_shopping,Errands and shopping,13,101,0.419,0.789
+rides,Rides for the client (I do not offer this),9,87,0.29,0.68
+medication_more,Medication help beyond reminders (I do not offer this),5,74,0.161,0.578
+paperwork_admin,"Paperwork, bills or appointments",2,5,0.065,0.039
+tech_help,Technology help,1,2,0.032,0.016
+spanish,Spanish,0,23,0.0,0.18

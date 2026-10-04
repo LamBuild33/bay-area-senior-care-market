@@ -1,6 +1,6 @@
 # Bay Area Senior Care Market Analysis
 
-A data project that uses public Census data, a small competitor review and a reading of public job posts to decide where a one-person home support business in the East Bay should focus, and what it should offer.
+A data project that uses public Census data, a small competitor review, and a reading of public job posts and helper profiles to decide where a one-person home support business in the East Bay should focus, and what it should offer.
 
 The business blends hands-on, nonmedical home care with assistant-type help (errands, paperwork, technology) for older adults in Berkeley, Oakland and Alameda. Each notebook answers one business question in plain language, shows its assumptions, and ends with the decision it led to.
 
@@ -76,7 +76,7 @@ Six measures from the question notebooks reduce to two: **need** (care need, liv
 - This one is not Census data. I read one public web page for each of 15 home care agencies serving Alameda or Oakland, and two Care.com listing pages, on October 3, 2026.
 - Of the 15 agencies, 14 advertise hands-on care, 10 errands, 10 rides for clients and 10 medication reminders.
 - None advertise help with technology or with paperwork, mail and bills. One mentions Spanish-speaking caregivers. None show an hourly price, and two say they have no minimum visit.
-- Among the first 20 Care.com helper profiles in each of two listings, none mention tech help or Spanish, and 3 to 4 mention paperwork or admin help. Their posted rates average 28 to 33 dollars an hour.
+- Among the first 20 Care.com helper profiles in each of two listings, none mention tech help or Spanish, and 3 to 4 mention paperwork or admin help. Their posted rates average 28 to 33 dollars an hour. That came from the short listing text only. Notebook 12 read the full profiles and found that some do list Spanish.
 
 **Notebook 11: what do families ask for?**
 - This one is not Census data either. On October 3, 2026 I read 121 public job posts written by families: every senior care post Care.com showed for Berkeley, Oakland and Alameda (97 different posts, 31 of them in those three cities), 16 household or assistant posts, and 8 undated posts from eldercare.com.
@@ -86,6 +86,17 @@ Six measures from the question notebooks reduce to two: **need** (care need, liv
 - Only 4 of the 31 local posts pass all my rules (part-time, no rides, reminders only, not clearly under 4 hours) and reach 35 dollars.
 
 ![What 31 local family posts ask for](outputs/what_families_ask_for.png)
+
+**Notebook 12: what do other aides offer?**
+- Also not Census data. On October 3, 2026 I read every helper profile Care.com showed for Berkeley, Oakland and Alameda: 128 senior care profiles and 11 assistant profiles. No names or profile links are kept.
+- The middle aide starts at 28 dollars an hour, and half start between 25 and 30. Of the 127 that show a usable rate, 106 start below my 35 dollars, 9 start at 35 and 12 start higher.
+- Most offer the same list: housekeeping (119 of 128), meals (112), bathing or dressing (111) and errands (101). 87 say they drive clients and 74 tick medication help, the two things I do not offer.
+- 23 list Spanish, 5 offer paperwork help, 4 say they are a registered Home Care Aide, 2 mention technology and 2 state a minimum visit or shift length. Nobody offers hands-on care, paperwork or tech help, and Spanish together.
+- Aides who start at 35 dollars or more show more years of experience (10 against 6) and are more likely to have a review (11 of 21 against 34 of 106).
+
+![Starting hourly rates of 127 aide profiles](outputs/aide_rates.png)
+
+![What 128 aide profiles say](outputs/what_aides_offer.png)
 
 Every number here is an estimate for ranking areas, not a count of clients; see Limits.
 
@@ -106,9 +117,10 @@ Every number here is an estimate for ranking areas, not a count of clients; see 
 | `notebooks/09_scorecard.ipynb` | All the measures side by side, a verdict for each area, and a test of the weights |
 | `notebooks/10_competitors.ipynb` | What 15 local agencies and Care.com helpers advertise, and what I offer that they do not |
 | `notebooks/11_what_families_ask_for.ipynb` | What families ask for in their job posts, what they offer to pay, and how many posts fit my rules |
+| `notebooks/12_what_aides_offer.ipynb` | What other independent aides offer and charge, where my rate lands, and what I can say that they do not |
 | `data/competitors.csv`, `data/care_com_listings.csv` | Hand-recorded notes from competitor web pages, with the address of each page |
 | `data/family_postings.csv`, `data/family_postings_sources.csv` | One row per family job post (no names), and how many posts each listing had and how many were read |
-| `data/aide_postings.csv`, `data/aide_postings_sources.csv` | One row per helper profile (no names or profile links), and how many profiles each listing had. Notebook 12 will use these |
+| `data/aide_postings.csv`, `data/aide_postings_sources.csv` | One row per helper profile (no names or profile links), and how many profiles each listing had and how many were read |
 | `outputs/` | The charts and ranked tables the notebooks save |
 | `requirements.txt` | Python packages needed |
 
@@ -118,7 +130,7 @@ Every number here is an estimate for ranking areas, not a count of clients; see 
 2. In this project folder, create a text file named `census_key.txt` and paste the key into it. The file is listed in `.gitignore`, so it never goes to GitHub.
 3. Open **Anaconda Prompt**, go to this folder, and install the packages: `pip install -r requirements.txt`
 4. Start Jupyter with `jupyter notebook` and run `notebooks/00_get_data.ipynb` first. It builds the shared table in `data/`.
-5. Run the other notebooks in order. Notebooks 03 to 09 read the shared table and need no key. Notebooks 01 and 02 download their own data, notebook 10 reads the competitor files in `data/`, and notebook 11 reads the family postings files in `data/`.
+5. Run the other notebooks in order. Notebooks 03 to 09 read the shared table and need no key. Notebooks 01 and 02 download their own data, notebook 10 reads the competitor files in `data/`, and notebooks 11 and 12 read the postings files in `data/`.
 
 ## Data
 
@@ -132,6 +144,7 @@ U.S. Census Bureau, American Community Survey 5-year estimates (2020-2024), by Z
 - The Census publishes each measure separately. It does not say how many people are, for example, both living alone and able to pay.
 - The competitor review covers 15 agencies and one web page each. It records what they advertise, which may differ from what they offer.
 - The family job posts are nearly all from one site on one day. They show what families ask for when they are shopping for a caregiver, not how many families want other kinds of help.
+- The helper profiles are also from one site on one day. They show what aides say they offer and what they ask to be paid, not what they do or earn.
 - This shows where people live, not who wants to hire. Local conversations still decide that.
 
 ## Privacy

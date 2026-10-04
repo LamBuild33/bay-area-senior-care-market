@@ -1,0 +1,7 @@
+starting_rate,profiles,my_rate
+$17 to $19,9,False
+$20 to $24,19,False
+$25 to $29,40,False
+$30 to $34,38,False
+$35 (my rate),9,True
+$36 to $50,12,False

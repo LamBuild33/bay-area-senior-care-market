@@ -1,0 +1,13 @@
+,what,profiles,share,my_edge
+housekeeping,Light housekeeping or laundry,119,0.93,False
+meals,Meals,112,0.875,False
+personal_care,"Bathing, dressing or toileting",111,0.867,False
+errands_shopping,Errands and shopping,101,0.789,False
+rides,Rides for the client (I do not offer this),87,0.68,False
+medication_more,Medication help beyond reminders (I do not offer this),74,0.578,False
+companionship,Companionship,68,0.531,False
+mobility_help,Help moving around,66,0.516,False
+spanish,Lists Spanish as a language,23,0.18,True
+paperwork_admin,"Paperwork, bills or appointments",5,0.039,True
+registered,Says they are a registered Home Care Aide,4,0.031,True
+tech_help,Mentions technology help or tech skills,2,0.016,True
