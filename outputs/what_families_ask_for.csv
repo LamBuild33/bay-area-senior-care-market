@@ -1,0 +1,13 @@
+,what,local_posts,all_posts,local_share,all_share,my_edge
+personal_care,"Bathing, dressing or toileting",21,55,0.677,0.567,False
+housekeeping,Light housekeeping or laundry,19,63,0.613,0.649,False
+meals,Meals,19,61,0.613,0.629,False
+mobility_help,Help moving around,19,45,0.613,0.464,False
+companionship,Companionship,17,53,0.548,0.546,False
+errands_shopping,Errands and shopping,13,47,0.419,0.485,False
+rides,Rides for the client (I do not offer this),9,35,0.29,0.361,False
+medication_more,Medication beyond reminders (I do not offer this),5,11,0.161,0.113,False
+medication_reminders,Medication reminders,3,12,0.097,0.124,False
+paperwork_admin,"Paperwork, bills or appointments",2,4,0.065,0.041,True
+tech_help,"Help with a phone, computer or email",1,5,0.032,0.052,True
+spanish,A Spanish-speaking helper,0,4,0.0,0.041,True
