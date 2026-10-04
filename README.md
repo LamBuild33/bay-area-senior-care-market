@@ -98,6 +98,15 @@ Six measures from the question notebooks reduce to two: **need** (care need, liv
 
 ![What 128 aide profiles say](outputs/what_aides_offer.png)
 
+**After notebook 12: where are assistant-type skills needed? (notes only, no notebook yet)**
+- On October 4, 2026 I looked beyond care sites: a local advice forum, job sites, a trade directory and a gig site. The notes are in `data/community_postings.csv`, `data/work_names.csv`, `data/money_managers.csv` and `data/local_programs.csv`.
+- Berkeley Parents Network forum, 15 recent questions about help for an elder: 1 asks for my whole blend ("Caregiver feels beyond what she needs at the moment."), 4 are helper-type with no hands-on care, and of the 10 that state a schedule, 5 want three visits a week or fewer. 8 want an individual and 4 an agency. Nobody writes "personal assistant".
+- Job sites: these skills are asked for most by busy families ("family assistant", "house manager", 33 to 55 dollars an hour, usually with childcare and driving) and by executives. None of the 39 family assistant, household assistant and EstateJobs listings I read mentions an older adult.
+- Daily money managers: the trade directory lists 70 in California, 11 in the East Bay and 5 in my three cities, against 128 senior care aides on Care.com. None of the 5 posts a price, and none offers care.
+- TaskRabbit: about 35 dollars an hour for personal assistant tasks in Berkeley and 32 for errands in Oakland. Tasks are booked one at a time and the pages do not mention older adults.
+- Splitting the Care.com family posts from notebook 11: 35 of 97 are helper-type (no bathing or dressing, no help moving around, no medication beyond reminders). They post about the same pay as hands-on care, about half ask for driving (17 of 35), and they lean toward 1 or 2 days a week (12 of the 29 that say).
+- Ashby Village volunteers help members with technology, rides and groceries for free, but cannot do hands-on care, and a volunteer companion is for a one-time need.
+
 Every number here is an estimate for ranking areas, not a count of clients; see Limits.
 
 ## What's here
@@ -122,6 +131,9 @@ Every number here is an estimate for ranking areas, not a count of clients; see 
 | `data/family_postings.csv`, `data/family_postings_sources.csv` | One row per family job post (no names), and how many posts each listing had and how many were read |
 | `data/aide_postings.csv`, `data/aide_postings_sources.csv` | One row per helper profile (no names or profile links), and how many profiles each listing had and how many were read |
 | `data/community_postings.csv`, `data/community_postings_sources.csv` | One row per question families posted on a local advice forum (Berkeley Parents Network), with no names, and how many were read. No notebook uses these yet |
+| `data/work_names.csv` | What the same skills are called on job and gig sites (family assistant, personal assistant, administrative assistant, daily money manager), with pay, requirements and the page address |
+| `data/money_managers.csv`, `data/money_managers_sources.csv` | Daily money managers listed for the East Bay in the trade directory (business names only), and the counts |
+| `data/local_programs.csv` | Local programs that touch the same needs (Ashby Village, the county directory for older adults) |
 | `outputs/` | The charts and ranked tables the notebooks save |
 | `requirements.txt` | Python packages needed |
 
@@ -146,6 +158,7 @@ U.S. Census Bureau, American Community Survey 5-year estimates (2020-2024), by Z
 - The competitor review covers 15 agencies and one web page each. It records what they advertise, which may differ from what they offer.
 - The family job posts are nearly all from one site on one day. They show what families ask for when they are shopping for a caregiver, not how many families want other kinds of help.
 - The helper profiles are also from one site on one day. They show what aides say they offer and what they ask to be paid, not what they do or earn.
+- The October 4 notes on job sites, the money manager directory and the gig site come from the first page of each listing, read once. Treat them as examples, not counts of a market.
 - This shows where people live, not who wants to hire. Local conversations still decide that.
 
 ## Privacy
