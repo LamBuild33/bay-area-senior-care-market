@@ -1,0 +1,22 @@
+list_name,source_url,pages_read,posts_read,checked,note
+berkeley,https://www.care.com/senior-care-jobs/berkeley-ca,3 of 3 (page2 and page3 end in -page2 / -page3),60,2026-10-04,Public Care.com senior care city list; no sign-in used
+oakland,https://www.care.com/senior-care-jobs/oakland-ca,3 of 3 (page2 and page3 end in -page2 / -page3),60,2026-10-04,Public Care.com senior care city list; no sign-in used
+alameda,https://www.care.com/senior-care-jobs/alameda-ca,3 of 3 (page2 and page3 end in -page2 / -page3),60,2026-10-04,Public Care.com senior care city list; no sign-in used
+richmond,https://www.care.com/senior-care-jobs/richmond-ca,3 of 3 (page2 and page3 end in -page2 / -page3),60,2026-10-04,Public Care.com senior care city list; no sign-in used
+emeryville,https://www.care.com/senior-care-jobs/emeryville-ca,3 of 3 (page2 and page3 end in -page2 / -page3),60,2026-10-04,Public Care.com senior care city list; no sign-in used
+san-pablo,https://www.care.com/senior-care-jobs/san-pablo-ca,3 of 3 (page2 and page3 end in -page2 / -page3),60,2026-10-04,Public Care.com senior care city list; no sign-in used
+el-sobrante,https://www.care.com/senior-care-jobs/el-sobrante-ca,3 of 3 (page2 and page3 end in -page2 / -page3),60,2026-10-04,Public Care.com senior care city list; no sign-in used
+hercules,https://www.care.com/senior-care-jobs/hercules-ca,3 of 3 (page2 and page3 end in -page2 / -page3),60,2026-10-04,Public Care.com senior care city list; no sign-in used
+pinole,https://www.care.com/senior-care-jobs/pinole-ca,3 of 3 (page2 and page3 end in -page2 / -page3),60,2026-10-04,Public Care.com senior care city list; no sign-in used
+orinda,https://www.care.com/senior-care-jobs/orinda-ca,3 of 3 (page2 and page3 end in -page2 / -page3),60,2026-10-04,Public Care.com senior care city list; no sign-in used
+lafayette,https://www.care.com/senior-care-jobs/lafayette-ca,3 of 3 (page2 and page3 end in -page2 / -page3),60,2026-10-04,Public Care.com senior care city list; no sign-in used
+moraga,https://www.care.com/senior-care-jobs/moraga-ca,3 of 3 (page2 and page3 end in -page2 / -page3),60,2026-10-04,Public Care.com senior care city list; no sign-in used
+san-leandro,https://www.care.com/senior-care-jobs/san-leandro-ca,3 of 3 (page2 and page3 end in -page2 / -page3),60,2026-10-04,Public Care.com senior care city list; no sign-in used
+castro-valley,https://www.care.com/senior-care-jobs/castro-valley-ca,3 of 3 (page2 and page3 end in -page2 / -page3),60,2026-10-04,Public Care.com senior care city list; no sign-in used
+hayward,https://www.care.com/senior-care-jobs/hayward-ca,3 of 3 (page2 and page3 end in -page2 / -page3),60,2026-10-04,Public Care.com senior care city list; no sign-in used
+martinez,https://www.care.com/senior-care-jobs/martinez-ca,3 of 3 (page2 and page3 end in -page2 / -page3),60,2026-10-04,Public Care.com senior care city list; no sign-in used
+concord,https://www.care.com/senior-care-jobs/concord-ca,3 of 3 (page2 and page3 end in -page2 / -page3),60,2026-10-04,Public Care.com senior care city list; no sign-in used
+san-francisco,https://www.care.com/senior-care-jobs/san-francisco-ca,3 of 3 (page2 and page3 end in -page2 / -page3),60,2026-10-04,Public Care.com senior care city list; no sign-in used
+san-ramon,https://www.care.com/senior-care-jobs/san-ramon-ca,3 of 3 (page2 and page3 end in -page2 / -page3),60,2026-10-04,Public Care.com senior care city list; no sign-in used
+union-city,https://www.care.com/senior-care-jobs/union-city-ca,3 of 3 (page2 and page3 end in -page2 / -page3),60,2026-10-04,Public Care.com senior care city list; no sign-in used
+ALL,combined,,234 unique,2026-10-04,Union of the 20 lists after removing repeats; ring_estimate is Claude's own off-peak drive-time estimate from San Pablo Park (94702) by post ZIP - not a routing lookup; mentions_* columns are keyword matches and approximate; no names or Care.com job IDs saved
