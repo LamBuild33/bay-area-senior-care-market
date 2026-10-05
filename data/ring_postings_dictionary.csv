@@ -1,0 +1,36 @@
+column,meaning,how_it_was_filled
+post_no,"My own row number, R001 to R234. It is not Care.com's post number.","Counted by me, sorted by ring then ZIP"
+zip,ZIP code of the post,Read from the post page title
+ring_estimate,"Distance ring from San Pablo Park (ZIP 94702): 1 = about 5 to 15 minutes, 2 = 15 to 30, 3 = 30 to 45, edge = about 40 to 50, far = anything farther","My own estimate of off-peak drive time from the ZIP, not a routing lookup, so approximate"
+post_city,"City the post is listed under (lowercase, hyphens)",Read from the post page address
+job_type,"Part time, Full time or One time, as the post labels it",Read from the post
+pay_low,"Low end of the hourly pay range, in dollars",Read from the post
+pay_high,"High end of the hourly pay range, in dollars. A post with one rate has the same number in both",Read from the post
+starts,Start date as the post shows it (no year),Read from the post
+days_in_schedule,Number of days of the week with hours marked in the post's weekly schedule grid. 0 for one-time posts,Counted from the schedule grid
+longest_block_hours,Longest single run of marked hours in the schedule grid. Blank for one-time posts. A value of 24 means the grid marks a whole day,Measured from the schedule grid
+light_housekeeping,"1 if the post's caregiver checklist has Light Housekeeping, else 0",Checklist on the post page
+meal_prep,1 if the checklist has Meal Preparation,Checklist on the post page
+bathing_dressing,1 if the checklist has Bathing / Dressing,Checklist on the post page
+errands_shopping,1 if the checklist has Errands / Shopping,Checklist on the post page
+companionship,1 if the checklist has Companionship,Checklist on the post page
+has_own_transportation,1 if the checklist has Has Own Transportation,Checklist on the post page
+mobility_assistance,1 if the checklist has Mobility Assistance,Checklist on the post page
+feeding,1 if the checklist has Feeding,Checklist on the post page
+transportation_required,1 if the checklist has Transportation Required (the aide drives the client),Checklist on the post page
+non_smoker,1 if the checklist has Non-Smoker,Checklist on the post page
+comfortable_with_pets,1 if the checklist has Comfortable With Pets,Checklist on the post page
+physically_active,1 if the checklist has Helps Staying Physically Active,Checklist on the post page
+medication_prompting,1 if the checklist has Medication Prompting (reminders),Checklist on the post page
+heavy_lifting,1 if the checklist has Heavy lifting,Checklist on the post page
+wound_care,1 if the checklist has Wound Care,Checklist on the post page
+mentions_medication,1 if the description mentions medication in any way,"Keyword match in the description, so approximate"
+mentions_hospice,1 if the description mentions hospice,"Keyword match, approximate"
+mentions_paperwork,"1 if the description mentions paperwork, mail, bills or similar","Keyword match, approximate"
+mentions_tech,"1 if the description mentions computers, phones or technology help","Keyword match, approximate"
+mentions_spanish,1 if the description mentions Spanish,"Keyword match, approximate"
+live_in,"1 if the post asks for live-in care: wording such as live-in, 24/7, 24-hour or round the clock. These are cut under the rules","Strict wording match, checked by hand on the flagged posts"
+medical_task_named,"1 if the post asks for a nurse-type task: Wound Care checked, home dialysis help or colostomy care. These are cut under the rules",Checklist plus description
+medication_wording_your_call,"1 if the post uses wording about giving or administering medication, checking blood sugar or blood pressure, or setting up medication. The Medication management is required template does not count. Left for me to decide, so it is flagged and not yet counted as a fit","Wording match, checked by hand"
+short_visit_block,1 if the longest block is under 4 hours and the post is not one-time (the 4-hour minimum for drives over 15 minutes would not fit),Calculated from longest_block_hours and job_type
+fit_under_current_rules,"1 if none of live_in, medical_task_named and medication_wording_your_call is 1. It does not apply the short-visit rule; use short_visit_block for that",Calculated from the three flag columns
