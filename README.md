@@ -32,7 +32,7 @@ I bill whole hours only, work up to 8 hours in a day, and do not take clients mo
 - **Paperwork and money:** organize only. That means mail, filing, forms, phone calls, appointments and calendars. No logins, no checks and no paying bills. The five local money and paperwork businesses I found do the bill paying, and none of them does care.
 - **Name and wording:** my last name plus "Home Support", with the line "Registered Home Care Aide. Help at home with care, errands, mail and technology." Nobody in the forum questions writes "personal assistant", and one says "Caregiver feels beyond what she needs at the moment." Of 128 aide profiles, 4 say they are registered, 5 offer paperwork help and 2 mention technology.
 - **Spanish:** not part of my wording. None of the 31 local family posts asks for it.
-- **Where to look for clients first:** not decided yet. The choices are local referrals (Ashby Village members, senior centers, the paperwork businesses that do not do care), Care.com (the most posts, but 22 of 31 top out below 35 dollars), or TaskRabbit for the assistant side (about 35 dollars, but single tasks).
+- **Where to look for clients first:** not decided yet. On October 4 I re-read Care.com's public senior care lists (20 city lists, 234 posts) and sorted the posts into rings by my estimate of drive time from San Pablo Park (ZIP 94702). Ring 1 (about 5 to 15 minutes) has 28 posts, ring 2 (15 to 30) has 31 and ring 3 (30 to 45) has 94. After cutting live-in posts and posts that ask for nurse-type tasks, 25, 24 and 83 are left, and 9, 2 and 23 of those top out at 35 dollars or more. The counts are approximate. The choices are local referrals (Ashby Village members, senior centers, the paperwork businesses that do not do care), Care.com (the most posts, but 22 of 31 top out below 35 dollars), or TaskRabbit for the assistant side (about 35 dollars, but single tasks).
 - **Areas with high need but tight budgets:** not part of the launch. Income is only part of the picture, so I want to look at assets and savings before deciding about them. No change.
 
 **Still open**
@@ -158,6 +158,7 @@ Every number here is an estimate for ranking areas, not a count of clients; see 
 | `notebooks/12_what_aides_offer.ipynb` | What other independent aides offer and charge, where my rate lands, and what I can say that they do not |
 | `data/competitors.csv`, `data/care_com_listings.csv` | Hand-recorded notes from competitor web pages, with the address of each page |
 | `data/family_postings.csv`, `data/family_postings_sources.csv` | One row per family job post (no names), and how many posts each listing had and how many were read |
+| `data/ring_postings.csv`, `data/ring_postings_sources.csv` | One row per Care.com senior care post from 20 East Bay, San Francisco and nearby city lists on October 4 (234 posts, no names, job IDs or text), placed in a distance ring from San Pablo Park by ZIP, with the tasks, pay, schedule and cut flags, and how many pages each list had and how many were read. No notebook uses these yet |
 | `data/aide_postings.csv`, `data/aide_postings_sources.csv` | One row per helper profile (no names or profile links), and how many profiles each listing had and how many were read |
 | `data/community_postings.csv`, `data/community_postings_sources.csv` | One row per question families posted on a local advice forum (Berkeley Parents Network), with no names, and how many were read. No notebook uses these yet |
 | `data/work_names.csv` | What the same skills are called on job and gig sites (family assistant, personal assistant, administrative assistant, daily money manager), with pay, requirements and the page address |
@@ -187,6 +188,7 @@ U.S. Census Bureau, American Community Survey 5-year estimates (2020-2024), by Z
 - The competitor review covers 15 agencies and one web page each. It records what they advertise, which may differ from what they offer.
 - The family job posts are nearly all from one site on one day. They show what families ask for when they are shopping for a caregiver, not how many families want other kinds of help.
 - The helper profiles are also from one site on one day. They show what aides say they offer and what they ask to be paid, not what they do or earn.
+- The ring posts are from one site on one day. The rings are my own estimates of off-peak drive time by ZIP, not a routing lookup. The medication, hospice, paperwork, technology and Spanish columns are keyword matches, so they are approximate, and "fit" does not yet include the short-visit rule.
 - The October 4 notes on job sites, the money manager directory and the gig site come from the first page of each listing, read once. Treat them as examples, not counts of a market.
 - This shows where people live, not who wants to hire. Local conversations still decide that.
 
