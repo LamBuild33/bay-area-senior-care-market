@@ -174,6 +174,7 @@ Every number here is an estimate for ranking areas, not a count of clients; see 
 | `docs/visit_note_form.md` | Short form to copy into a phone's Notes app, fill in after each visit and email to the client, with an example that is not a real client. The editable version is a Claude Docs document; this is a copy |
 | `docs/weekly_invoice.md` | Blank weekly invoice for one client (visits billed to the nearest minute, mileage, purchases, total due, payments received) with worked examples that use made-up numbers. The editable version is a Claude Docs document; this is a copy |
 | `docs/payment_receipt.md` | Blank receipt to give for every cash payment and reimbursement, in a printable table and a plain-text version, with examples that are not real clients. The editable version is a Claude Docs document; this is a copy |
+| `docs/invoice_tracker.xlsx` | Blank spreadsheet with one row per weekly invoice. It works out the due date (7 days after sending), what is still owed, and a status (Due, Overdue, Over 7 days late, Paid). Copy it before use and keep the filled-in copy outside this repo, because real client names do not belong here |
 | `docs/questions_for_professionals.md` | Questions to bring to an accountant, a lawyer and an insurer (a broker and my car insurer), each with a line on why I am asking. The editable version is a Claude Docs document; this is a copy |
 | `outputs/` | The charts and ranked tables the notebooks save |
 | `requirements.txt` | Python packages needed |
