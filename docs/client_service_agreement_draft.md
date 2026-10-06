@@ -47,7 +47,7 @@ If your doctor, physical therapist, occupational therapist, dietitian or other p
 
 Your rate is **$[35 or 40] an hour**, and the shortest visit I schedule for you is **[2 or 4] hours**. These depend on the drive time from my base to your home each way, which is about **[number] minutes**.
 
-- I bill for the actual time I work, from arrival to departure, at your hourly rate divided by the time, rounded to the nearest **minute**. The shortest-visit minimum above still applies.
+- I bill for the actual time I work, from arrival to departure, at your hourly rate, prorated to the nearest **minute**. The shortest-visit minimum above still applies.
 - I work up to 12 hours in a day.
 - Visits are one or more a week, on days and times we agree in writing (text or email is fine). Our starting schedule is **[days, times, hours]**.
 - I do not take clients more than 45 minutes away.
