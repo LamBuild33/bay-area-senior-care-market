@@ -12,7 +12,7 @@ Six measures from the question notebooks reduce to two: **need** (care need, liv
 
 ## What I decided
 
-Updated October 4, 2026, after reading the family posts, the aide profiles and the wider sites (notebooks 11 and 12 and the notes after them). Three earlier decisions changed: I now drive clients, short visits are allowed close to home, and Spanish is no longer part of my wording.
+Updated October 4, 2026 (billing by the minute and the 12-hour day changed on October 5, 2026, in the client agreement draft), after reading the family posts, the aide profiles and the wider sites (notebooks 11 and 12 and the notes after them). Three earlier decisions changed: I now drive clients, short visits are allowed close to home, and Spanish is no longer part of my wording.
 
 **Rate and shortest visit depend on the drive each way:**
 
@@ -22,7 +22,7 @@ Updated October 4, 2026, after reading the family posts, the aide profiles and t
 | 15 to 30 minutes | 35 dollars an hour | 4 hours |
 | 30 to 45 minutes | 40 dollars an hour | 4 hours |
 
-I bill whole hours only, work up to 8 hours in a day, and do not take clients more than 45 minutes away. I quote the rate privately. Of the 11 local family posts with a clear visit length, 5 want under 4 hours, so a 4-hour minimum everywhere turned away work close to home. Farther out, the longer minimum and the higher rate make up for the unpaid drive: on a shortest visit at the far edge of each row I earn about 28 to 29 dollars for each hour of my time, drive included.
+I bill for the actual time I work, from arrival to departure, prorated from the hourly rate to the nearest minute. The shortest visit in the table still applies. I work up to 12 hours in a day and do not take clients more than 45 minutes away. I quote the rate privately. Of the 11 local family posts with a clear visit length, 5 want under 4 hours, so a 4-hour minimum everywhere turned away work close to home. Farther out, the longer minimum and the higher rate make up for the unpaid drive: on a shortest visit at the far edge of each row I earn about 28 to 29 dollars for each hour of my time, drive included.
 
 - **Where to start:** the four best-fit areas above, then the East Oakland hills, a near miss. No change.
 - **Schedule:** one or more visits a week.
@@ -40,7 +40,6 @@ I bill whole hours only, work up to 8 hours in a day, and do not take clients mo
 
 - Make the Care.com account and complete its safety screening before applying to the Berkeley posts, and see whether posters accept my rate.
 - Whether to keep the every-other-week visit from notebook 05, now that the rule is one or more visits a week.
-- How to bill a visit that runs past a whole hour.
 - Reword my late-cancellation charge, which was written around a 4-hour visit.
 - Before the first paid ride, ask my car insurer whether my policy covers driving clients for pay. I could not settle from public pages whether the state's rules for paid passenger carriers apply to an aide.
 - Read the Home Care Services Bureau fact sheet on medication myself. I have only seen it quoted.
