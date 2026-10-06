@@ -40,14 +40,13 @@ I bill for the actual time I work, from arrival to departure, prorated from the 
 
 - Make the Care.com account and complete its safety screening before applying to the Berkeley posts, and see whether posters accept my rate.
 - Whether to keep the every-other-week visit from notebook 05, now that the rule is one or more visits a week.
-- Reword my late-cancellation charge, which was written around a 4-hour visit.
 - Before the first paid ride, ask my car insurer whether my policy covers driving clients for pay. I could not settle from public pages whether the state's rules for paid passenger carriers apply to an aide.
 - Read the Home Care Services Bureau fact sheet on medication myself. I have only seen it quoted.
 - Check the drive time from home to Alameda's main island, the top-ranked area, to see which row of the table it falls in.
 - Talk to an accountant or a lawyer about working for myself. Questions to bring: with one regular client, am I an independent business or a household employee, and what do the client and I owe (California has a quarterly wage amount that triggers household employer payroll; I did not confirm the figure)? Does California home care licensing apply to one person working alone, and does it matter that I place my own work through Care.com? What wording is safe for exercise, meal and memory activities that follow a professional's plan?
 - Ask an insurance broker what general liability, bonding and accident coverage fit a one-person, non-medical business, and get the car insurer's answer in writing.
 - Before signing up for Care.com, read its terms myself at https://www.care.com/about/terms-of-use/. A second reading says the terms ban using its messages to market a business, that disputes go to private arbitration with an opt-out only by mailed letter within 30 days of first use, and that screening covers arrests and charges, including people in my household. I have not verified those points. Care.com's own guidance to families says most senior caregivers are employees.
-- Write the client agreement (services and what I do not do, rates and minimums, booking and cancellation, who sees visit notes, that I follow professionals' plans, how either side ends it) and have a lawyer review it. If the first client comes through a platform or agency, ask first whether it sets my pay or terms, since that can decide whether I am a contractor.
+- Have a lawyer review the client agreement draft in `docs/client_service_agreement_draft.md` (written October 5). It sets a late-cancellation charge of the shortest-visit time at the client's hourly rate, 30 days' notice to end, weekly invoices due in 7 days, no late fees, and check-ins every 3 months. Its drafting notes list the questions to bring, and the name, contact and per-client blanks are still placeholders. If the first client comes through a platform or agency, ask first whether it sets my pay or terms, since that can decide whether I am a contractor.
 - Email the referral agencies in `data/referral_channels.csv` and ask what they pay or let me charge, what they charge families, and whether aides are contractors or employees. Their public pages do not say.
 - Research referral sources (geriatric care managers, hospital and rehab discharge planners, senior centers, physical therapists) the same way. Not started.
 
@@ -170,6 +169,7 @@ Every number here is an estimate for ranking areas, not a count of clients; see 
 | `data/work_names.csv` | What the same skills are called on job and gig sites (family assistant, personal assistant, administrative assistant, daily money manager), with pay, requirements and the page address |
 | `data/money_managers.csv`, `data/money_managers_sources.csv` | Daily money managers listed for the East Bay in the trade directory (business names only), and the counts |
 | `data/local_programs.csv` | Local programs that touch the same needs (Ashby Village, the county directory for older adults) |
+| `docs/client_service_agreement_draft.md` | Draft client agreement (October 5, 2026), with name, contact and per-client blanks left as placeholders and drafting notes for a lawyer. The editable version is a Claude Docs document; this is a copy |
 | `outputs/` | The charts and ranked tables the notebooks save |
 | `requirements.txt` | Python packages needed |
 
