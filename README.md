@@ -176,6 +176,10 @@ Every number here is an estimate for ranking areas, not a count of clients; see 
 | `docs/payment_receipt.md` | Blank receipt to give for every cash payment and reimbursement, in a printable table and a plain-text version, with examples that are not real clients. The editable version is a Claude Docs document; this is a copy |
 | `docs/invoice_tracker.xlsx` | Blank spreadsheet with one row per weekly invoice. It works out the due date (7 days after sending), what is still owed, and a status (Due, Overdue, Over 7 days late, Paid). Copy it before use and keep the filled-in copy outside this repo, because real client names do not belong here |
 | `docs/mileage_log.xlsx` | Blank spreadsheet with one row per drive. It separates drives for a client (billed at the mileage rate) from my own drive to their home (not billed), and totals each. Copy it before use and keep the filled-in copy outside this repo |
+| `tools/visit_to_invoice.py` | Reads a week of visit notes (written with the visit note form), works out the invoice with exact math (actual minutes, shortest visit, mileage, purchases on my card), shows what it understood, and after I say yes writes a plain-text invoice and can add a row to the tracker. It checks itself against the invoice worked examples |
+| `tools/clients_example.json`, `tools/example_notes.txt` | A made-up client file and made-up notes for trying the tool. The real `clients.json`, notes and invoices stay on my computer and are ignored by git |
+| `tools/test_visit_to_invoice.py` | 16 tests for the tool, including the invoice worked examples |
+| `tools/install_visit_to_invoice.ipynb` | A notebook cell that writes `visit_to_invoice.py` to disk, because chat downloads of .py files do not work for me |
 | `docs/questions_for_professionals.md` | Questions to bring to an accountant, a lawyer and an insurer (a broker and my car insurer), each with a line on why I am asking. The editable version is a Claude Docs document; this is a copy |
 | `outputs/` | The charts and ranked tables the notebooks save |
 | `requirements.txt` | Python packages needed |

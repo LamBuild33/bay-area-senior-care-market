@@ -1,0 +1,13 @@
+{
+  "from": "[Your full name], [Last Name] Home Support",
+  "contact": "[your phone or email]",
+  "clients": {
+    "example": {
+      "name": "Example Client",
+      "payer": "",
+      "rate": 35,
+      "minimum_hours": 4,
+      "mileage_rate": 0.76
+    }
+  }
+}
