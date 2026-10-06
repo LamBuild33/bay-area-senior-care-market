@@ -13,6 +13,7 @@ We fill this out together on the first visit. It records your own goals in your 
 | The name you like to be called | |
 | Address | |
 | Phone | |
+| Email address (where I send your visit notes) | |
 | Language you prefer | |
 | Person who arranges or pays for your care (name, relationship, phone), or "none" | |
 | Emergency contact (name, phone) | |
