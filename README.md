@@ -172,6 +172,7 @@ Every number here is an estimate for ranking areas, not a count of clients; see 
 | `docs/client_service_agreement_draft.md` | Draft client agreement (October 5, 2026), with name, contact and per-client blanks left as placeholders and drafting notes for a lawyer. The editable version is a Claude Docs document; this is a copy |
 | `docs/client_intake_sheet.md` | Blank intake sheet to fill out with a client on the first visit (contacts, goals, help wanted, preferences, health information they choose to share, home safety, and a check-in log). Contains no client information. The editable version is a Claude Docs document; this is a copy |
 | `docs/visit_note_form.md` | Short form to copy into a phone's Notes app, fill in after each visit and email to the client, with an example that is not a real client. The editable version is a Claude Docs document; this is a copy |
+| `docs/weekly_invoice.md` | Blank weekly invoice for one client (visits billed to the nearest minute, mileage, purchases, total due, payments received) with worked examples that use made-up numbers. The editable version is a Claude Docs document; this is a copy |
 | `docs/questions_for_professionals.md` | Questions to bring to an accountant, a lawyer and an insurer (a broker and my car insurer), each with a line on why I am asking. The editable version is a Claude Docs document; this is a copy |
 | `outputs/` | The charts and ranked tables the notebooks save |
 | `requirements.txt` | Python packages needed |
